@@ -1,1 +1,74 @@
 // Navigation code here
+
+.top{
+    .flexcenter();
+    flex-direction:column;
+    background-color:@nav-bg;
+    @media @phone {
+        width:100%;
+    }
+    
+    
+    
+
+
+    h1{
+        font-size:3.5rem;
+        padding:20px;
+        color:@nav-font;
+        @media @phone {
+            width:100%;
+            font-size:5rem;
+            text-align:center;
+        }
+    }
+
+    .nav{
+        
+        font-size: 2rem;
+        padding-bottom:20px;
+        @media @phone {
+            width:100%;
+            font-size:2rem;
+            text-align:center;
+            margin-left:5%;
+            margin-right:5%;
+        }
+        
+
+        a{
+            text-decoration: none;
+            color:@ebony-clay;
+            padding: 0 15px 0 15px;
+            
+
+            &:visited{
+                color:@nav-font;
+            }
+        }
+        
+    }
+
+
+}
+
+.topimg{
+    .flexcenter();
+
+        .img{
+    
+            width:70%;
+            margin-left:10%;
+            margin-right:10%;
+            @media @phone {
+                width:100%;
+                
+            }
+
+    }
+}
+
+
+
+
+
